@@ -83,6 +83,75 @@ margin: 30px;
     margin-right: 50%;
     
 }
+
+/* flex container styles */
+#mySkills {
+    text-align: center;
+}
+.flexContainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+/* skills card styles */
+.skillsCards {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+}
+/* image container styles */
+.imgContainer img {
+    border-radius: 50%;
+    background-color: rgb(155, 145, 165);
+}
+.myWork {
+    width: 80%;
+    margin: auto;
+}
+/* My work section Styles */
+.projectCard {
+    display: flex;
+}
+/* Project 1 styles */
+.phone1 {
+    width: 130.79px;
+    height: 282.11px;
+}
+.project1 .description {
+    margin-left: 15px;
+}
+/* Project 2 styles */
+.project2 {
+    flex-direction: row-reverse;
+}
+.project2 .description {
+    width: 60%;
+}
+.project-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%
+}
+.groupPhone {
+    width: 383.79px;
+    height: 363.19px;
+}
+/* Project 3 styles */
+.phone3 {
+    width: 147px;
+    height: 300px;
+}
+.project3 .description {
+    width: 60%;
+    margin: 15px;
+}
+
+
 /* footer section styles */
 
 .footer{
