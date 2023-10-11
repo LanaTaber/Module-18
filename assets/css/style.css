@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Spectral+SC:wght@200&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spectral SC', serif;
+    /* background-color: rgba(215, 209, 219, 0.891); */
+}
+
+
+body {
+    background-color: rgba(215, 209, 219, 0.891);
+
+}
+.inline-block {
+    display: inline-block;
+}
+
+
+/* navigation styles */
+
+.navigation nav {
+    float: right;
+    /* height: 100px; */
+    margin-top: 30px;
+    /* margin: auto; */
+}
+
+nav .navBtn {
+    margin: auto 10px;
+}
+
+
+.navbar-nav>li.navActive>a:focus {
+    color: rebeccapurple;
+    border-top: 0.1875rem solid var(--primary-pink);
+    /* border-bottom: 0.1875rem solid var(--primary-pink); */
+  }
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/* hero section styles */
+
+.heroImg{
+    margin: auto;
+    width: 92%;
+}
+.content {
+    background-color: rgb(247, 244, 239);
+    width: 73%;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.494);
+    /* text-align: center; */
+}
+
+/* about me section styles */
+.avatar {
+    height: 623px;
+    width: 320px;
+}
+
+.about-me-container{
+font-size: 20px;
+width: 65%;
+margin: 30px;
+
+}
+
+#signature {
+    width: 158.31px;
+    height: 49.5px;
+    float: right;
+}
+
+
+.download{
+    margin-left: 50%;
+    margin-right: 50%;
+    
+}
+/* footer section styles */
+
+.footer{
+    text-align: center;
+}
+
+.footer li {
+    padding: 0 10px;
+    margin: 0 15px;
+    border-left: 2px solid rgba(0, 0, 0, 0.223);
+    border-right: 2px solid rgba(0, 0, 0, 0.223);
+    height: 10%;
+}
